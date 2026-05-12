@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Laskar Pelangi",
+    "author": "Andrea Hirata",
+    "category": "Fiksi",
+    "description": "Kisah inspiratif anak-anak Belitung yang berjuang meraih mimpi di tengah keterbatasan.",
+    "cover": "https://images.unsplash.com/photo-1512820790803-83ca3b5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=400&q=80",
+    "pdf": "https://www.gutenberg.org/files/123/123.pdf",
+    "pages": 432,
+    "year": 2005
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Pengembangan Diri",
+    "description": "Panduan praktis membangun kebiasaan baik yang mengubah hidup Anda selamanya.",
+    "cover": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=400&q=80",
+    "pdf": "https://www.gutenberg.org/files/456/456.pdf",
+    "pages": 320,
+    "year": 2018
+  },
+  {
+    "id": 3,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "category": "Keuangan",
+    "description": "Belajar literasi keuangan dari dua ayah dengan cara berpikir berbeda tentang uang.",
+    "cover": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=400&q=80",
+    "pdf": "https://www.gutenberg.org/files/789/789.pdf",
+    "pages": 336,
+    "year": 1997
+  },
+  {
+    "id": 4,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "category": "Sejarah",
+    "description": "Sejarah singkat umat manusia dari zaman batu hingga revolusi ilmiah.",
+    "cover": "https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=400&q=80",
+    "pdf": "https://www.gutenberg.org/files/321/321.pdf",
+    "pages": 512,
+    "year": 2011
+  },
+  {
+    "id": 5,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "category": "Fiksi",
+    "description": "Perjalanan seorang penggembala Spanyol mengikuti mimpinya menuju harta karun di Mesir.",
+    "cover": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=400&q=80",
+    "pdf": "https://www.gutenberg.org/files/654/654.pdf",
+    "pages": 208,
+    "year": 1988
+  }
+]
