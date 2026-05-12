@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital - 📚 Koleksi Buku Gratis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-book-open"></i> Perpustakaan Digital</h1>
+            <p>Koleksi Buku Gratis & Terlengkap</p>
+        </div>
+    </header>
+
+    <!-- Search & Filter -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Cari buku, penulis, atau kategori...">
+                <select id="categoryFilter">
+                    <option value="">Semua Kategori</option>
+                </select>
+                <button id="clearFilter"><i class="fas fa-times"></i> Clear</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Grid -->
+    <section class="books-section">
+        <div class="container">
+            <div class="stats">
+                <span id="totalBooks">0</span> Buku Tersedia
+            </div>
+            <div class="books-grid" id="booksGrid">
+                <!-- Books akan dimuat oleh JavaScript -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>Buku tidak ditemukan</h3>
+                <p>Coba ubah kata kunci pencarian</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
